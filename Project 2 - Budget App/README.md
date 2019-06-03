@@ -32,7 +32,7 @@
  * getting the current date through Date object constructor
  * the change event
 
-## Screenshots of the game -
+## Screenshots of the app -
 <br><br>
 <img src="ss/1.PNG" ></img>
 <br><br>
