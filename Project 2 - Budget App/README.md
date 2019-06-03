@@ -1,21 +1,36 @@
-# Pig Game
+# The Budget Tracker App
 
-## GAME RULES:
+## Objective:
 
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
-- BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
-- The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
-- The first player to reach 100 points on GLOBAL score wins the game
+- Keeps track of the income and expenses.
+- Keeps track of the budget total.
+- Calculates the total expense percentage and the individual expense.
 
 ## What I learnt -
 
-- Manipulation of DOM
-- Generation of a random number(Math functions basically)
-- Reading from the DOM
-- Changing CSS styles through Javascript (style, toggle , add, remove classes)
-- Using state variables to store the state of the game
-- DRY(Do not Repeat Yourself) principle by using functions
+* Modules - creation,public and private methods and properties, seperation of concerns
+ * keypress events,keycodes
+ * reading data from different html input types
+ * storing hardcoded strings(such as classnames) in objects, and accessing them through the object in the entire app
+ * Initialization function - so the module contains only functions
+ * How to choose relevant function constructors
+ * How to setup proper data structure for our program
+ * How to add big chunks of html into the dom
+ * How to replace parts of string
+ * DOM manipulation using the insertAdjacentHtml method
+ * Clearing Html feilds
+ * using querySelectorAll
+ * Converting list to an array
+ * foreach loop
+ * Convert input feilds to numbers, prevent false inputs
+ * Event delgation in practice
+ * How to use Id's in html to connect the ui with data model
+ * How to use the parentNode property for Dom traversing
+ * Looping over an array through map
+ * Remove elements from an array using the splice method
+ * creating forEach function for nodeLists
+ * getting the current date through Date object constructor
+ * the change event
 
 ## Screenshots of the game -
 <br><br>
