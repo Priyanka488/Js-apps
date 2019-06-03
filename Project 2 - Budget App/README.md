@@ -38,4 +38,3 @@
 <br><br>
 <img src="ss/2.PNG" ></img>
 <br><br>
-<img src="ss/3.PNG" ></img>
