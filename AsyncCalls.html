@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ASYNCHRONOUS JAVASCRIPT
+        // const second = () =>
+        // {
+        //     setTimeout(() => 
+        //     {
+        //         console.log("Hey Hey");
+        //     },0);
+        // };
+
+        // const first = ()=>
+        // {
+        //     console.log("hey there");
+        //     second();
+        //     console.log("bye bye");
+        // }
+
+        // first();
+
+
+
+        // AJAX CALLS WITH FETCH AND PROMISES
+        
+        //fetch is a modern web api
+        //CORS - service used to proxy or to channel the requests 
+        //on our own server
+        //A CORS proxy is a service that allows developers (probably you) to access resources from other websites, 
+        //without having to own that website. Just Add "https://cors-anywhere.herokuapp.com/" before your desired api link.
+        //fetch api gets our data amd returns a promise
+        //promise in turn returns a response or an error
+        //Here, we just produce promises and not consume them
+        //'body' is where the actual result is stores
+        //json method also returns a promise, so we chain its then method
+        //woeID stands for Where On Earth Id
+        
+        function getTemp(woeID)
+        {
+        
+            fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeID}/`)
+        .then(result=> {console.log(result);
+        return result.json();
+        }).then(data=>
+        {
+            
+            const weatherData = data.consolidated_weather[0];
+            console.log(`temperature at ${data.title} is between ${weatherData.max_temp} 
+            and ${weatherData.min_temp}`);
+        })
+        .catch(error => {console.log(error);});
+
+        }
+        
+        getTemp(44418);
+
+        // AJAX CALLS WITH FETCH AND ASYNC/AWAIT
+        // We do not use catch with async/await, instead we use a try catch block.
+        //This all is happening in the background, asynchronously
+        async function getTempAsync(woeID)
+        {
+        try{
+            const result = await fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeID}/`);
+         const data = await result.json();
+         console.log(data);
+         const weatherData = data.consolidated_weather[0];
+            console.log(`temperature at ${data.title} is between ${weatherData.max_temp} 
+            and ${weatherData.min_temp}`);
+
+            return data;
+        }
+        catch(error)
+        {
+            console.log(error);
+        } 
+
+        }
+
+        getTempAsync(44418);
+        //This will only print 'Promise(pending)' since this works synchronously and is printed much before the asynchronous functions returns its promise.
+        const promises = getTempAsync(2487956);
+        console.log(promises);
+        
+        //We can only access it using then method on the returned promise
+        let dataLog;
+        getTempAsync(2487956).then(data => {
+            dataLog=data;
+            console.log(dataLog);
+        }
+        )
+        </script>
+</body>
+</html>
