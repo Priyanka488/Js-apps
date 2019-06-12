@@ -1,0 +1,8 @@
+FORKIFY is a very simple recipe searching app.
+The recipes are fetched through a real API.
+The servings and the ingridients can be adjusted .
+You can add,delete the ingridients to a shopping list.
+You can save the items in your favourites too.
+The favorite section remains even after the page is reloaded.
+The directions for the recipe re directed to the actual website.
+

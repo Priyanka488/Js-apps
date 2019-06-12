@@ -1,0 +1,21 @@
+//it is a configuration file for babel
+
+
+    //preset is a collection of code-transform plugins, 
+    //which are like the peices of code that actually apply the actual transformations to our code
+    // "env" stands for environment
+    //We have already installed this package, 
+{
+"presets": [
+        ["env",{
+            "target": {
+                "browsers":
+                [
+                    //means we want to target the browser of last 5 versions and internet explorer >= 8
+                    "last 5 versions",
+                    "ie>=8"
+                ]    
+        }
+    }]
+]
+}
