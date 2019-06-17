@@ -1,40 +1,31 @@
-# The Budget Tracker App
+# Forkify-It
 
-## Objective:
+## Functionalities of the App:
 
-- Keeps track of the income and expenses.
-- Keeps track of the budget total.
-- Calculates the total expense percentage and the individual expense.
+- Search over 10,000 food items and get their recipes.
+- Add, Delete and Update the ingredients to your shopping list.
+- Mark your favorite recipes.
+- Adjust the ingredients based on the servings.
 
 ## What I learnt -
 
-* Modules - creation,public and private methods and properties, seperation of concerns
- * keypress events,keycodes
- * reading data from different html input types
- * storing hardcoded strings(such as classnames) in objects, and accessing them through the object in the entire app
- * Initialization function - so the module contains only functions
- * How to choose relevant function constructors
- * How to setup proper data structure for our program
- * How to add big chunks of html into the dom
- * How to replace parts of string
- * DOM manipulation using the insertAdjacentHtml method
- * Clearing Html feilds
- * using querySelectorAll
- * Converting list to an array
- * foreach loop
- * Convert input feilds to numbers, prevent false inputs
- * Event delgation in practice
- * How to use Id's in html to connect the ui with data model
- * How to use the parentNode property for Dom traversing
- * Looping over an array through map
- * Remove elements from an array using the splice method
- * creating forEach function for nodeLists
- * getting the current date through Date object constructor
- * the change event
+* Modules in ES6, imports and exports,named and default
+* The concept of application state, a simple way of implementing state
+* Advanced DOM manipulation
+* How to use ES6 template strings to render entire HTML components
+* Rendering an AJAX loading spinner
+* How to use .closest method for easier event handling
+* How and why to use data-* attributes in HTML 5
+* Pagination
+* how to read data from the page URL
+* how to respond to the haschange event
+* how to add the same event listener to multiple events
+* Using array methods like map,slice,findIndex and includes
+* how and why to use eval()
+* Implementing event delegation through '.matches'
+* Creating unique IDs using an external package
+* Difference between array.slice and array.splice
+* use case for array.findIndex() and array.find()
 
-## Screenshots of the app -
-<br><br>
-<img src="ss/1.PNG" ></img>
-<br><br>
-<img src="ss/2.PNG" ></img>
-<br><br>
+## Demo of the app -
+![Forkify-It Demo] (demo.gif)
