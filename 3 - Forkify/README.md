@@ -28,4 +28,4 @@
 * use case for array.findIndex() and array.find()
 
 ## Demo of the app -
-! [Forkify-It Demo](demo.gif)
+![Forkify-It Demo](demo.gif)
