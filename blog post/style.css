@@ -1,0 +1,171 @@
+/*
+TYPOGRAPHY TIPS
+1. Keep font size between 15 and 25 px
+2. Use really big font sizes for headlines. (32,60,90)
+3. To make the text look big and less bulky at the same time, decrease the fomt weight.
+4. use line spacing between 120% and 150%.
+5. Keep 45 to 90 characters per line
+6. use good fonts e.g Sans serif,Open Sans,Lato,Raleway,Monsterrat,PT Sans,Cardo,Merriweather,PT Serif
+7. Choose the font that reflects the look and feel you want for your website.
+8. Decide : sans serif or serif typeface?
+9. Use a good font and use only that one typeface.
+
+COLOR TIPS :
+1. Choose a single base color excoet black,white and gray. See FlatUI Colors on Google.
+2. Make a color pallete for your website using https://www.0to255.com.
+3. Never use black color for your design.
+4. Colors are very important since its related to psychology.
+5. Brighter tones are more energetic and darker shades are more powerful and elegant.
+ 
+IMAGE TIPS :
+1. It has actually been found that image heavy websites convert better.
+2. How to put text on images ?
+    a. Put text directly on the image.But this only works when the image is quite dark and your text is white.
+    b. use image overlay and gradient to put text over it.
+    c. Put your text in a box, make the box opaque, so that image is also seen.
+    d. Blur the photograph or use out-of-focus area.
+    e. THE FLOOR FADE TECHNIQUE - Technique in which image subtly fades towards black at the bottom,whith white text written over it.
+
+ICONS TIPS:
+1. use icons to list features of your website or some steps.
+2. use icons for actions and links and menus - Label your icons if you have enough space,else it may lead to confusion.
+3. Icons should not take a center stage, instead they should be in a supporting rule.
+4. Two types of icon formats - static images and vector icon font.
+5. Always use vector icons since they can scale up and down endlessly.
+
+
+SPACING AND LAYOUT TIPS :
+
+1. Use whitespace - Whitespace is the area where there is no content.
+    a. Put whitespace between your elements, group of elements and sections of the websites.
+    b. Don't exaggerate.
+2. Define visual hierarchy or sections using whitespaces.
+    a. Define where you want your audience to look first.
+    b. Establish a flow that corresponds to your content's message.
+    c. Use whitespace to build that flow.
+
+THE INSPIRATION -
+1. Collect designs that you like.
+2. Try to understand everything about them.
+    a. Why do they look good ?
+    b. What do these sites have in common.
+    c. How is it done in HTML and CSS.
+
+Let's quickly summarize the main content of the web design section:
+
+    a. Most of your content will be text, so beautiful typography is a key element to a good looking website.
+    b. Images are getting more and more important in webdesign, so choosing great images and putting text on them is an essential part of your work.
+    c. Icons are also a good way of setting a friendly tone for your website, but use them carefully.
+    d. The adequate use of whitespace makes a website look professionally designed, so use it a lot, but in the correct way.
+    e. Build a layout by defining the visual hierarchy of your content. Whitespace is also important for this.
+    f. Your website should be designed in a way that ensures that both the user and the owner of the website achieve their goals. This is the user experience.
+    g. It is very important that you get inspired by studying well-designed websites from other designers.
+
+
+
+
+*/
+
+
+
+/* * means that all elements are selected */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+   font-family: Helvetica Neue,Arial; 
+}
+
+.clearfix
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+h1,h2
+{
+    color: rgba(211, 38, 118, 0.92);
+    
+}
+
+h1
+{
+    font-size: 40px;
+    margin-bottom: 20px;  
+}
+h2
+{
+    font-size: 30px;  
+    margin-bottom: 10px;  
+}
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;  
+}
+.maintext
+{
+    text-align: justify;
+}
+.authortext
+{
+    font-size: 22px;
+}
+.container {
+    width : 1140px;
+    margin : 20px auto 0 auto;
+}
+
+.author-box {
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+}
+
+/*Select only the image inside author-box*/
+.author-box img
+{
+   height: 100px;
+    width :100px;
+    border-radius: 50%;
+    float: left;
+}
+.blogposts {
+    
+    width:75%;
+    float: left;
+    padding: 30px;
+    position: relative;
+}
+.blogposts img
+{
+    /*width is set to auto to maintain the aspect ratio*/ 
+    height: 150px;
+    width: auto;
+    
+    
+}
+.otherposts {
+    
+    width:25%;
+    float: left;
+}
+.authortext
+{
+    float:left;
+    margin-top: 30px;
+    margin-left:15px;
+}
+/*for absolute positioning of the date, make sure it's aprent i.e blog-post is set to be absolute*/
+.date
+{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
