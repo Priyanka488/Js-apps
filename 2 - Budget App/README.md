@@ -40,6 +40,6 @@
 <br><br>
 
 ## Checkout the app here -
-thebudgetapp.netlify.com
+https://thebudgetapp.netlify.com
 <br><br>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5a9f6c08-5b00-40e3-935f-adf24e168cdb/deploy-status)](https://app.netlify.com/sites/thebudgetapp/deploys)
