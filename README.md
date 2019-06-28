@@ -1,7 +1,7 @@
 # Js-apps
 Consists of all apps made with HTML, CSS and specifically with Vanilla-JavaScript, in a time span of 15 days, on my endeavor with Vanilla-JavaScript. :memo:
 
-<a href="1 - Pig Game" target="blank">1 - Pig game</a><br><br>
+<a href="1 - Pig Game" target="_blank">1 - Pig game</a><br><br>
 <a href="2 - Budget App">2 - Budget App</a><br><br>
 <a href="3 - Forkify">3 - Forkify</a><br><br>
 <a href="4 - Drum Kit">4 - Drum Kit</a><br><br>
