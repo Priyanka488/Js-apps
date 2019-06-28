@@ -2,6 +2,10 @@
 
 An effort to implement a small canvas using HTML and CSS.
 
+# Demo of the app -
+
+![HTML-Canvas Demo](htmlcanvas.gif)
+
 ## Checkout the app here -
 
 https://my-canvas.netlify.com/
