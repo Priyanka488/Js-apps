@@ -1,5 +1,5 @@
 # Js-apps
-Consists of all apps made with HTML, CSS and specifically with Vanilla-JavaScript, in a time span of 15 days, on my endeavor with Vanilla-JavaScript. :memo:
+Consists of all apps made with HTML, CSS and specifically with Vanilla-JavaScript, in a time span of 30 days, on my endeavor with Vanilla-JavaScript. :memo:
 
 <a href="1 - Pig Game" target="_blank">1 - Pig game</a><br><br>
 <a href="2 - Budget App">2 - Budget App</a><br><br>
