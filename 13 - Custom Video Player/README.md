@@ -5,7 +5,7 @@
 - Play and pause the running video.
 - Increase or decrease the speed of the video.
 - Increase/Decrease the volume.
-- Increase/Decrease the progress of the video/
+- Increase/Decrease the progress of the video.
 
 ## Checkout the video player here -
 https://the-video-player.netlify.com/
