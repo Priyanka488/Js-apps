@@ -1,21 +1,21 @@
 # Js-apps
 Consists of all apps made with HTML, CSS and specifically with Vanilla-JavaScript, in a time span of 15 days, on my endeavor with Vanilla-JavaScript. :memo:
 
-<a href="1 - Pig Game">Pig game</a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
-<a href=""></a>
+<a href="1 - Pig Game">1. Pig game</a>
+<a href="2 - Budget App">2 - Budget App</a>
+<a href="3 - Forkify">3 - Forkify</a>
+<a href="4 - Drum Kit">4 - Drum Kit</a>
+<a href="5 - Css js clock">5 - Css js clock</a>
+<a href="6 - Css variables">6 - Css variables</a>
+<a href="7 - Array cardio day 1">7 - Array cardio day 1</a>
+<a href="8 - Type Ahead">8 - Type Ahead</a>
+<a href="9 - array cardio day 2">9 - array cardio day 2</a>
+<a href="10 - fun with html canvas">10 - fun with html canvas</a>
+<a href="11 - dev tools domination">11 - dev tools domination</a>
+<a href="12 - hold shift and check checkboxes">12 - hold shift and check checkboxes</a>
+<a href="13 - Custom Video Player">13 - Custom Video Player</a>
+<a href="14 - key sequence detection">14 - key sequence detection</a>
+<a href="15 - slide in on scroll">15 - slide in on scroll</a>
+<a href="16- JavaScript References VS Copying">16- JavaScript References VS Copying</a>
+<a href="17 - Local Storage and Event Delegation">17 - Local Storage and Event Delegation</a>
+<a href="18 - Mouse Move Shadow">18 - Mouse Move Shadow</a>
