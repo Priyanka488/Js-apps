@@ -1,6 +1,6 @@
 # Fun with HTML Canvas
 
-An effort to implement a small canvas using HTML and CSS.
+An effort to implement a small canvas using HTML and CSS and Vanilla-Js.
 
 # Demo of the app -
 
