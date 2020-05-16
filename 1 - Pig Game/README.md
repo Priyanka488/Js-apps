@@ -24,3 +24,8 @@
 <img src="ss/2.PNG" ></img>
 <br><br>
 <img src="ss/3.PNG" ></img>
+
+## Play the game here -
+https://thepiggame.netlify.com/
+<br><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bd6e5a18-dcc2-4ad9-a14a-dfd7fe0b03e5/deploy-status)](https://app.netlify.com/sites/thepiggame/deploys)

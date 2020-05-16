@@ -1,32 +1,13 @@
-# Forkify-It
+# Fun with HTML Canvas
 
-## Functionalities of the App:
+An effort to implement a small canvas using HTML and CSS and Vanilla-Js.
 
-- Search over 10,000 food items and get their recipes.
-- Add, Delete and Update the ingredients to your shopping list.
-- Mark your favorite recipes and access them anytime.
-- Adjust the ingredients based on the servings.
+# Demo of the app -
 
-## What I learnt -
+![HTML-Canvas Demo](htmlcanvas.gif)
 
-* Modules in ES6, imports and exports,named and default
-* The concept of application state, a simple way of implementing state
-* Advanced DOM manipulation
-* How to use ES6 template strings to render entire HTML components
-* Rendering an AJAX loading spinner
-* How to use .closest method for easier event handling
-* How and why to use data-* attributes in HTML 5
-* Pagination
-* how to read data from the page URL
-* how to respond to the haschange event
-* how to add the same event listener to multiple events
-* Using array methods like map,slice,findIndex and includes
-* how and why to use eval()
-* Implementing event delegation through '.matches'
-* Creating unique IDs using an external package
-* Difference between array.slice and array.splice
-* use case for array.findIndex() and array.find()
-* loacl Storage API
+## Checkout the app here -
 
-## Demo of the app -
-![Forkify-It Demo](demo.gif)
+https://my-canvas.netlify.com/
+<br><br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5138c261-3cc0-4cab-8103-5ceed20ce35f/deploy-status)](https://app.netlify.com/sites/my-canvas/deploys)
